@@ -7,16 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1FB7373B289A68E100464FB4 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB73739289A68E100464FB4 /* MainViewController.swift */; };
+		1FB7373C289A68E100464FB4 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FB7373A289A68E100464FB4 /* MainViewController.xib */; };
+		1FB7373F289A6A7700464FB4 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB7373D289A6A7700464FB4 /* ProfileViewController.swift */; };
+		1FB73740289A6A7700464FB4 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FB7373E289A6A7700464FB4 /* ProfileViewController.xib */; };
+		1FB73746289A725E00464FB4 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB73744289A725E00464FB4 /* FavoriteViewController.swift */; };
+		1FB73747289A725E00464FB4 /* FavoriteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FB73745289A725E00464FB4 /* FavoriteViewController.xib */; };
+		1FB7374C289A72CE00464FB4 /* TabBarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB7374B289A72CE00464FB4 /* TabBarModel.swift */; };
+		1FB7374E289A745F00464FB4 /* TabBarConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB7374D289A745F00464FB4 /* TabBarConfigurator.swift */; };
 		1FD687C82899623900B87A49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD687C72899623900B87A49 /* AppDelegate.swift */; };
-		1FD687CC2899623900B87A49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD687CB2899623900B87A49 /* ViewController.swift */; };
 		1FD687D12899623B00B87A49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FD687D02899623B00B87A49 /* Assets.xcassets */; };
 		1FD687D42899623B00B87A49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FD687D22899623B00B87A49 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1FB73739289A68E100464FB4 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		1FB7373A289A68E100464FB4 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		1FB7373D289A6A7700464FB4 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		1FB7373E289A6A7700464FB4 /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+		1FB73744289A725E00464FB4 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		1FB73745289A725E00464FB4 /* FavoriteViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavoriteViewController.xib; sourceTree = "<group>"; };
+		1FB7374B289A72CE00464FB4 /* TabBarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarModel.swift; sourceTree = "<group>"; };
+		1FB7374D289A745F00464FB4 /* TabBarConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarConfigurator.swift; sourceTree = "<group>"; };
 		1FD687C42899623900B87A49 /* SurfSummerSchoolProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SurfSummerSchoolProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FD687C72899623900B87A49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1FD687CB2899623900B87A49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1FD687D02899623B00B87A49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FD687D32899623B00B87A49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1FD687D52899623B00B87A49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -33,6 +47,63 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1FB73741289A71F000464FB4 /* MainModule */ = {
+			isa = PBXGroup;
+			children = (
+				1FB73739289A68E100464FB4 /* MainViewController.swift */,
+				1FB7373A289A68E100464FB4 /* MainViewController.xib */,
+			);
+			path = MainModule;
+			sourceTree = "<group>";
+		};
+		1FB73742289A720A00464FB4 /* ProfileModule */ = {
+			isa = PBXGroup;
+			children = (
+				1FB7373D289A6A7700464FB4 /* ProfileViewController.swift */,
+				1FB7373E289A6A7700464FB4 /* ProfileViewController.xib */,
+			);
+			path = ProfileModule;
+			sourceTree = "<group>";
+		};
+		1FB73743289A721A00464FB4 /* MainFlow */ = {
+			isa = PBXGroup;
+			children = (
+				1FB73749289A727800464FB4 /* TabBar */,
+				1FB73742289A720A00464FB4 /* ProfileModule */,
+				1FB73741289A71F000464FB4 /* MainModule */,
+				1FB73748289A726400464FB4 /* FavoriteModule */,
+			);
+			path = MainFlow;
+			sourceTree = "<group>";
+		};
+		1FB73748289A726400464FB4 /* FavoriteModule */ = {
+			isa = PBXGroup;
+			children = (
+				1FB73744289A725E00464FB4 /* FavoriteViewController.swift */,
+				1FB73745289A725E00464FB4 /* FavoriteViewController.xib */,
+			);
+			path = FavoriteModule;
+			sourceTree = "<group>";
+		};
+		1FB73749289A727800464FB4 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				1FB7374B289A72CE00464FB4 /* TabBarModel.swift */,
+				1FB7374D289A745F00464FB4 /* TabBarConfigurator.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		1FB7374A289A72BA00464FB4 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				1FD687D52899623B00B87A49 /* Info.plist */,
+				1FD687D02899623B00B87A49 /* Assets.xcassets */,
+				1FD687D22899623B00B87A49 /* LaunchScreen.storyboard */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
 		1FD687BB2899623900B87A49 = {
 			isa = PBXGroup;
 			children = (
@@ -53,10 +124,8 @@
 			isa = PBXGroup;
 			children = (
 				1FD687C72899623900B87A49 /* AppDelegate.swift */,
-				1FD687CB2899623900B87A49 /* ViewController.swift */,
-				1FD687D02899623B00B87A49 /* Assets.xcassets */,
-				1FD687D22899623B00B87A49 /* LaunchScreen.storyboard */,
-				1FD687D52899623B00B87A49 /* Info.plist */,
+				1FB7374A289A72BA00464FB4 /* Application */,
+				1FB73743289A721A00464FB4 /* MainFlow */,
 			);
 			path = SurfSummerSchoolProject;
 			sourceTree = "<group>";
@@ -120,7 +189,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FD687D42899623B00B87A49 /* LaunchScreen.storyboard in Resources */,
+				1FB7373C289A68E100464FB4 /* MainViewController.xib in Resources */,
+				1FB73740289A6A7700464FB4 /* ProfileViewController.xib in Resources */,
 				1FD687D12899623B00B87A49 /* Assets.xcassets in Resources */,
+				1FB73747289A725E00464FB4 /* FavoriteViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,8 +203,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FD687CC2899623900B87A49 /* ViewController.swift in Sources */,
+				1FB73746289A725E00464FB4 /* FavoriteViewController.swift in Sources */,
+				1FB7373B289A68E100464FB4 /* MainViewController.swift in Sources */,
+				1FB7373F289A6A7700464FB4 /* ProfileViewController.swift in Sources */,
 				1FD687C82899623900B87A49 /* AppDelegate.swift in Sources */,
+				1FB7374E289A745F00464FB4 /* TabBarConfigurator.swift in Sources */,
+				1FB7374C289A72CE00464FB4 /* TabBarModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +349,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3335BGVMD7;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SurfSummerSchoolProject/Info.plist;
+				INFOPLIST_FILE = SurfSummerSchoolProject/Application/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -300,7 +376,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3335BGVMD7;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SurfSummerSchoolProject/Info.plist;
+				INFOPLIST_FILE = SurfSummerSchoolProject/Application/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
